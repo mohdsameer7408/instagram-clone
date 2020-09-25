@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid lightgray;
+}
+
+.header_image {
+  object-fit: contain;
+}
+
+.nav_right {
+  display: flex;
+  align-items: center;
+}
+
+.nav_avatar {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.nav_right > h3 {
+  margin: 0 5px;
+}

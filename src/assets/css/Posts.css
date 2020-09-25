@@ -1,0 +1,16 @@
+.posts {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.post_left {
+  flex: 0.5;
+}
+
+@media only screen and (max-width: 1024px) {
+  .posts {
+    flex-direction: column;
+    align-items: center;
+  }
+}
